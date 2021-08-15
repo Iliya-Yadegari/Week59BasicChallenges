@@ -2,8 +2,8 @@ def multiple(first,second):
     answer = second / first
 
     if answer ==  round(answer):
-        print('It is a multiple')
+        print('1')
     else:
-        print('It is not a multiple')
+        print('0')
         
 multiple(2,4)
