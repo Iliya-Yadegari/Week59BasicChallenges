@@ -5,6 +5,7 @@ def calculateCharges(c1,c2,c3,c4,c5):
     c4 -= 3
     c5 -= 3
     
+    
     if c1 <= 0:
         print('You have no charge to pay')
     else:
@@ -41,3 +42,5 @@ def calculateCharges(c1,c2,c3,c4,c5):
         price = c1 * 0.5
 
         print(price)
+
+calculateCharges(1,2,3,4,5)
