@@ -1,4 +1,7 @@
 def integerPower(base, exponent):
-    print(pow(base,exponent))
+    baseexponent = pow(base,exponent)
+    return baseexponent
 
-integerPower(2,4)
+res = integerPower(2,4)
+
+print(res)
